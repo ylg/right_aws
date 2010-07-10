@@ -32,11 +32,11 @@ require "openssl"
 require "digest/sha1"
 
 require 'rubygems'
+require 'activesupport'
 require 'right_http_connection'
 
 $:.unshift(File.dirname(__FILE__))
 require 'awsbase/benchmark_fix'
-require 'awsbase/support'
 require 'awsbase/right_awsbase'
 require 'ec2/right_ec2'
 require 'ec2/right_ec2_images'
