@@ -32,7 +32,7 @@ require "openssl"
 require "digest/sha1"
 
 require 'rubygems'
-require 'activesupport'
+require 'active_support'
 require 'right_http_connection'
 
 $:.unshift(File.dirname(__FILE__))
